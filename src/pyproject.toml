@@ -1,0 +1,20 @@
+[project]
+name = "src"
+version = "0.1.0"
+description = "EEG viewer app"
+authors = [
+  { name = "Juan F. Restrepo", email = "juan.restrepo@uner.edu.ar" },
+  { name = "Juan M. Días", email = "juan.manuel.diaz@unc.edu.ar" },
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "dash>=3.3.0",
+  "dash-bootstrap-components>=2.0.4",
+  "numpy>=2.3.5",
+  "pandas>=2.3.3",
+  "pathlib>=1.0.1",
+  "polars>=1.35.2",
+  "python-dotenv>=1.2.1",
+  "pyyaml>=6.0.3",
+]
