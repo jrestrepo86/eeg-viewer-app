@@ -3,7 +3,7 @@ import os
 from dash import Dash, Input, Output, callback, dcc, html
 from dotenv import load_dotenv
 
-load_dotenv(".env")
+load_dotenv(".env.dev")
 
 
 app = Dash()
